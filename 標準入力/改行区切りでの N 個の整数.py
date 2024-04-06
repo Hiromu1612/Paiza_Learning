@@ -1,6 +1,6 @@
 s=int(input())
 for i in range(s):
-    print(i+1)
+    print(int(input())) #Success
 
 #解答
 s=input()
