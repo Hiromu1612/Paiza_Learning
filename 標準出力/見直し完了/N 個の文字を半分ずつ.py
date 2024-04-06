@@ -2,7 +2,7 @@ N=int(input())
 M=N/2
 for i in range(1,N+1):
     if i==M:
-        print(i,end="\n")
+        print(i)
     else:
         print(i,end=" ")
 
