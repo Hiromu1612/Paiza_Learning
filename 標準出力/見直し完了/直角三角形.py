@@ -1,6 +1,8 @@
-N=input()
-for i in (1,N+1):
-    print(i[0])    
+a=[]
+N=int(input())
+for i in range(1,N+1):
+    a.append(i)
+    print(*a) #*をつけるとリストの中身をそのまま出力できる(アンパック)
 
 #解答
 N = int(input())

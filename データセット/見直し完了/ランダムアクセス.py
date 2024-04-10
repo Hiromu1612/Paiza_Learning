@@ -1,7 +1,6 @@
-N,M=map(int,input().split())
-a=map(int,input().split())
-for i in a:
-    print(i[M-1])
+N,M=map(int,input().split())   
+A=input().split()
+print(A[M-1]) #OK
 
 #解答
 N, M = map(int, input().split())

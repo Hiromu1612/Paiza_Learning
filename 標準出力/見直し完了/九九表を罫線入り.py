@@ -1,11 +1,11 @@
 for i in range(1,10):
     for j in range(1,10):
-        if j==9:
-            print(" {: >2} ".format(i*j))
+        if j ==9:
+            print("{: >2}".format(i*j))
         else:
             print("{: >2}".format(i*j),end=" | ")
-    if i!=9:
-        print("==========================================")
+    if i != 9:
+        print("="*(2*9+3*(9-1)))
 
 #解答
 for i in range(1, 10):
