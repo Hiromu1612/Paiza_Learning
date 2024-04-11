@@ -10,3 +10,4 @@ for _ in range(Q):
         print(A)
     elif s[0]==2:
         print()
+        
