@@ -13,7 +13,6 @@ for i in range(len(N)):
         print(",", end="")
 
     print(N[i], end="")
-
 print()
 
 #3つの数字後にカンマ
