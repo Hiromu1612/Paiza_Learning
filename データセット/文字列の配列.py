@@ -1,8 +1,11 @@
-H,W,r,c=int(input().split())
-for h in range(1,H+1):
-    for w in range(1,W+1):
-        if h==r and w==c:
-            a=a
+H,W,r,c=map(int,input().split())
+for i in range(1,H+1):
+    for j in range(1,W+1):
+        s=input().split()#splitする必要なし
+if s[i][j]=="#":
+    print("Yes")
+else:
+    print("No")
 
 # 解答
 H, W, r, c = map(int, input().split())
