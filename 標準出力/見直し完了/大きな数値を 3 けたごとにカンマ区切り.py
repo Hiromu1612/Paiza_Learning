@@ -1,10 +1,10 @@
-N=input().split()
-for i in int(N):
-    if i%3==2:
-        print(i,end=",")
+N=input()
+for i in range(len(N)):
+    print(N[i],end="")
+    if i%3==2 and i!=len(N)-1:
+        print(end=",")
     else:
-        print(i,end="")
-print()
+        print(end="")
 
 #解答
 N = input()
